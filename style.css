@@ -479,3 +479,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 @media (max-width: 900px){ .split{ grid-template-columns:1fr; } }
 .tick-list li{ display:flex; gap:12px; margin-bottom:12px; color: var(--grey); font-size:.95rem; }
 .tick-list li::before{ content:"›"; color: var(--cyan); font-family: var(--font-display); font-weight:700; }
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
